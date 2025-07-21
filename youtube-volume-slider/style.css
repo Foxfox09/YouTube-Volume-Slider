@@ -1,0 +1,74 @@
+/* Ховаємо стандартний повзунок YouTube */
+.ytp-volume-slider {
+  display: none !important;
+}
+
+/* Кастомний повзунок */
+#custom-volume-slider {
+  position: absolute;
+  top: 11px;
+  left: 135px;
+  width: 198px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transform: translateX(-160px);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 10000;
+}
+
+#custom-volume-slider.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+/* Доріжка повзунка */
+#custom-volume-track {
+  position: relative;
+  width: 200px;
+  height: 6px;
+  background: rgba(200, 200, 200, 0.3); /* сіра напівпрозора */
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Заповнення (біла лінія) */
+#custom-volume-fill {
+  position: absolute;
+  height: 100%;
+  background: white;
+  border-radius: 3px;
+  left: 0;
+  top: 0;
+  width: 0;
+  transition: width 0.1s ease;
+}
+
+/* Повзунок-коло */
+#custom-volume-thumb {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+
+/* Зсув таймера і назви глави при появі повзунка */
+.ytp-time-display.notranslate {
+  transition: transform 0.3s ease;
+}
+
+.ytp-chapter-title.ytp-button {
+  transition: transform 0.3s ease;
+}
+
+/* Зсунути всю кнопку SponsorBlock правіше */
+.skipButtonControlBarContainer {
+  margin-left: 200px !important; /* або більше/менше, якщо треба */
+}

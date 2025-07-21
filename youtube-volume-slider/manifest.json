@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Volume Slider Enhancer",
+  "version": "1.0",
+  "description": "Точний та широкий повзунок гучності у стилі YouTube",
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
+
