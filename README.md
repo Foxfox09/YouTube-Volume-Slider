@@ -5,6 +5,9 @@
 але ні я, ні ChatGPT не програмісти, тому це просто "хлам", який, в принципі,
 працює. Але у повноекранному режимі повзунок з'їжджає в динамік — все.
 
-![Static Badge](https://img.shields.io/badge/downloader-black?cacheSeconds=https%3A%2F%2Fgithub.com%2FFoxfox09%2FYouTube-Volume-Slider%2Farchive%2Frefs%2Fheads%2Fmain.zip)
+<a href="https://github.com/Foxfox09/YouTube-Volume-Slider/archive/refs/heads/main.zip" download>
+  <img src="https://img.shields.io/badge/downloader-black" alt="Download Button">
+</a>
+
 
 
