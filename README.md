@@ -9,5 +9,10 @@
   <img src="https://img.shields.io/badge/downloader-black" alt="Download Button"> 
 </a>
 
+This extension was supposed to make the volume slider in YouTube longer,
+but neither I nor ChatGPT are programmers, so it's just a "junk" that, in principle,
+works. But in full-screen mode, the slider moves to the speaker, and that's it.
 
-
+<a href="https://github.com/Foxfox09/YouTube-Volume-Slider/archive/refs/heads/main.zip" download>
+  <img src="https://img.shields.io/badge/downloader-black" alt="Download Button"> 
+</a>
