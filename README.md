@@ -6,7 +6,7 @@
 працює. Але у повноекранному режимі повзунок з'їжджає в динамік — все.
 
 <a href="https://github.com/Foxfox09/YouTube-Volume-Slider/archive/refs/heads/main.zip" download>
- 🚀 <img src="https://img.shields.io/badge/downloader-black" alt="Download Button"> 🚀
+  <img src="https://img.shields.io/badge/downloader-black" alt="Download Button"> 
 </a>
 
 
